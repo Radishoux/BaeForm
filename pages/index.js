@@ -19,21 +19,21 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <Link href="/pages/q?v=1">
+          <Link href="/q?v=1">
             <a className={styles.card}>
               <h2>Question &rarr;</h2>
               <p>How are you?</p>
             </a>
           </Link>
 
-          <Link href="/pages/u?v=1">
+          <Link href="/u?v=1">
             <a className={styles.card}>
               <h2>User &rarr;</h2>
               <p>Rudy Quinternet</p>
             </a>
           </Link>
 
-          <Link href="/pages/c?v=1">
+          <Link href="/c?v=1">
             <a className={styles.card}>
               <h2>Chat &rarr;</h2>
               <p>Rudy + Marianne</p>

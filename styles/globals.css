@@ -13,3 +13,29 @@ a {
 * {
     box-sizing: border-box;
 }
+
+
+/* //////////CHAT//////////// */
+
+.ChatDaddy {
+    background: #f2f2f2;
+    position: fixed;
+    z-index: 99999;
+    display: flex;
+}
+
+.ChatLeftSection {
+    background: lightcoral;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+    flex: 1;
+}
+
+.ChatRightSection {
+    flex: 1;
+    background: lightgoldenrodyellow;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+}

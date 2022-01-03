@@ -1,10 +1,16 @@
 export default function FirstPost() {
-    return <h1 > First Post < /h1>
+  return (
+    <div>
+      <div className="container">
+        <h1>First Post</h1>
+      </div>
+    </div>
+  )
 }
 
 
-
 // class Profile extends React.Component
+// https://cognito-idp.eu-west-3.amazonaws.com/eu-west-3_jJHVgB5Sk/.well-known/jwks.json
 // {
 // 	render()
 // 	{

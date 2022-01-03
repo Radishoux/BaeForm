@@ -1,0 +1,14 @@
+.navbar {
+    width: 100%;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navButton {
+    margin: 0;
+    flex: 1;
+    border: 2px solid #eaeaea;
+    cursor: pointer;
+}

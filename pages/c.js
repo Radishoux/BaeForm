@@ -1,19 +1,17 @@
 import chatlistusr from "../components/chatlist";
 import React, { useState, useEffect } from 'react';
 
-
-
 export default function FirstPost() {
   const [load, setLoad] = useState(true);
   const [getres, setGetres] = useState(0);
   const [postres, setPostres] = useState(0);
 
   useEffect(() => {
-      fetch('http://localhost:3000/api/q?v=1ppppopopopopo') //get test
+      fetch('/api/q?v=1ppppopopopopo') //get test
       .then(getres => getres.json())
       .then(getres => setGetres(getres))
 
-      fetch('http://localhost:3000/api/u?v=pipipipipipipip', {
+      fetch('/api/u?v=pipipipipipipip', {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         headers: {
           'Content-Type': 'application/json'

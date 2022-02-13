@@ -1,48 +1,39 @@
 .signUpForm {
-    /* display: none; */
-    margin: auto;
+    margin: 50px auto;
     width: 300px;
     display: block;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 10px;
 }
 
-.signUpForm label {
+.shownform {
+    margin: 100px auto;
+    width: 300px;
+    display: block;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 10px;
+    transform: rotateY(0deg);
+    transition-duration: 1s;
+}
+
+.formLabel {
     display: block;
     margin: 5px auto;
     width: 100%;
-}
-
-.signUpForm input {
-    display: block;
-    margin: auto;
-    width: 100%;
-    outline: none;
-    border: none;
-    border-bottom: 1px solid orchid;
-}
-
-.signInForm {
-    /* display: none; */
-    margin: auto;
-    width: 300px;
-    display: block;
-}
-
-.signInForm label {
-    display: block;
-    margin: 5px auto;
-    width: 100%;
-}
-
-.signInForm input {
-    display: block;
-    margin: auto;
-    width: 100%;
-    outline: none;
-    border: none;
-    border-bottom: 1px solid orchid;
 }
 
 .formInput {
+    display: block;
+    margin: auto;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid orchid;
+}
+
+.formInputDiv {
     margin: 10px;
 }
 
@@ -54,6 +45,7 @@
     border-radius: 30px;
     border: none;
     cursor: pointer;
+    margin: 5px auto;
 }
 
 .formCheckInput {
@@ -69,4 +61,15 @@
 .small {
     opacity: 0.7;
     font-size: 0.7em;
+}
+
+.hiddenform {
+    margin: 100px auto;
+    width: 300px;
+    display: block;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 10px;
+    transform: rotateY(90deg);
+    transition-duration: 1s;
 }
